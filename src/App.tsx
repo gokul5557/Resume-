@@ -1,10 +1,10 @@
 import React from 'react';
-import { 
-  MapPin, 
-  Phone, 
-  Mail, 
-  Linkedin, 
-  Github, 
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Linkedin,
+  Github,
   Download,
   Target,
   Wrench,
@@ -38,7 +38,7 @@ function App() {
         <header className="text-center mb-4 print:mb-2">
           <h1 className="text-4xl print:text-lg font-bold text-gray-900 mb-1 print:mb-0">GOKUL V</h1>
           <p className="text-xl print:text-sm font-semibold text-blue-600 mb-3 print:mb-1">DevOps & Cloud Security Engineer</p>
-          
+
           <div className="flex flex-wrap justify-center gap-4 print:gap-1 text-sm print:text-xs text-gray-600">
             <div className="flex items-center gap-1">
               <MapPin size={16} className="text-blue-600 print:w-2 print:h-2" />
@@ -48,31 +48,31 @@ function App() {
               <Phone size={16} className="text-blue-600 print:w-2 print:h-2" />
               <span>+91 8220442790</span>
             </div>
-<div className="flex items-center gap-1">
-  <Mail size={16} className="text-blue-600 print:w-2 print:h-2" />
-  <a href="mailto:gokul3002001@gmail.com" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-    gokul3002001@gmail.com
-  </a>
-</div>
+            <div className="flex items-center gap-1">
+              <Mail size={16} className="text-blue-600 print:w-2 print:h-2" />
+              <a href="mailto:gokul3002001@gmail.com" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                gokul3002001@gmail.com
+              </a>
+            </div>
 
-<div className="flex items-center gap-1">
-  <Linkedin size={16} className="text-blue-600 print:w-2 print:h-2" />
-  <a href="https://linkedin.com/in/gokul-cse" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-    linkedin.com/in/gokul-cse
-  </a>
-</div>
-<div className="flex items-center gap-1">
-  <Github size={16} className="text-blue-600 print:w-2 print:h-2" />
-  <a href="https://github.com/gokul5557" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-    github.com/gokul5557
-  </a>
-</div>
-<div className="flex items-center gap-1">
-  <Shield size={16} className="text-blue-600 print:w-2 print:h-2" />
-  <a href="https://tryhackme.com/p/VortexCoder" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-    tryhackme.com/p/VortexCoder
-  </a>
-</div>
+            <div className="flex items-center gap-1">
+              <Linkedin size={16} className="text-blue-600 print:w-2 print:h-2" />
+              <a href="https://linkedin.com/in/gokul-cse" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                linkedin.com/in/gokul-cse
+              </a>
+            </div>
+            <div className="flex items-center gap-1">
+              <Github size={16} className="text-blue-600 print:w-2 print:h-2" />
+              <a href="https://github.com/gokul5557" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                github.com/gokul5557
+              </a>
+            </div>
+            <div className="flex items-center gap-1">
+              <Shield size={16} className="text-blue-600 print:w-2 print:h-2" />
+              <a href="https://tryhackme.com/p/VortexCoder" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                tryhackme.com/p/VortexCoder
+              </a>
+            </div>
 
 
           </div>
@@ -85,9 +85,9 @@ function App() {
             <h2 className="text-xl print:text-sm font-bold text-gray-900">OBJECTIVE</h2>
           </div>
           <p className="text-gray-700 leading-relaxed text-sm print:text-xs print:leading-tight">
-            Results-driven DevOps and Cloud Security Engineer with strong hands-on experience in CI/CD pipelines, 
-            infrastructure automation, containerization, and cloud security. Proven ability to deploy secure, scalable 
-            systems using Jenkins, Docker, Proxmox, and Wazuh. Passionate about automating operations, enhancing system 
+            Results-driven DevOps and Cloud Security Engineer with strong hands-on experience in CI/CD pipelines,
+            infrastructure automation, containerization, and cloud security. Proven ability to deploy secure, scalable
+            systems using Jenkins, Docker, Proxmox, and Wazuh. Passionate about automating operations, enhancing system
             reliability, and building resilient, secure cloud-native platforms.
           </p>
         </section>
@@ -109,11 +109,11 @@ function App() {
             </div>
             <div>
               <strong className="text-gray-900">Infrastructure & Virtualization:</strong>
-              <span className="text-gray-700 ml-1">Proxmox, NFS, LVM, QEMU agent, Cloud-init</span>
+              <span className="text-gray-700 ml-1">Proxmox, NFS, QEMU agent, Cloud-init</span>
             </div>
             <div>
               <strong className="text-gray-900">Cloud Security & Cybersecurity:</strong>
-              <span className="text-gray-700 ml-1">Wazuh SIEM, Fail2Ban, iptables, Trivy, TryHackMe</span>
+              <span className="text-gray-700 ml-1">Wazuh SIEM, Fail2Ban, iptables, TryHackMe</span>
             </div>
             <div>
               <strong className="text-gray-900">Cloud & Storage Platforms:</strong>
@@ -121,7 +121,7 @@ function App() {
             </div>
             <div>
               <strong className="text-gray-900">Web/DB Stack:</strong>
-              <span className="text-gray-700 ml-1">Nginx, Apache, PHP 8.3, MariaDB, MySQL</span>
+              <span className="text-gray-700 ml-1">Nginx, PHP 8.3, MariaDB, MySQL</span>
             </div>
             <div>
               <strong className="text-gray-900">Identity & Access Management:</strong>
@@ -129,11 +129,11 @@ function App() {
             </div>
             <div>
               <strong className="text-gray-900">Monitoring & Alerting:</strong>
-              <span className="text-gray-700 ml-1">Postfix email alerts, log rotation, netdata</span>
+              <span className="text-gray-700 ml-1">Postfix email alerts, log rotation</span>
             </div>
             <div>
               <strong className="text-gray-900">Version Control:</strong>
-              <span className="text-gray-700 ml-1">Git, GitHub</span>
+              <span className="text-gray-700 ml-1">Git, GitHub, GitLab</span>
             </div>
           </div>
         </section>
@@ -154,7 +154,7 @@ function App() {
               <p className="text-xs text-gray-600 mb-2 print:mb-0 italic">📜 Internship Certificate Available</p>
             </div>
             <ul className="space-y-1 print:space-y-0 text-sm print:text-xs text-gray-700 print:leading-tight">
-              <li>• Provisioned and managed 100+ virtual machines using Proxmox with automated templates</li>
+              <li>• Provisioned and managed 10+ virtual machines using Proxmox with automated templates</li>
               <li>• Designed and implemented CI/CD pipelines in Jenkins for QA, Preprod, and Production environments</li>
               <li>• Deployed and managed full-stack applications including Frappe, Nextcloud, Mailcow, and Taiga</li>
               <li>• Configured Wazuh SIEM, Fail2Ban, and iptables for intrusion detection and mitigation</li>
@@ -167,49 +167,74 @@ function App() {
         </section>
 
         {/* Key Projects */}
-        <section className="mb-4 print:mb-1">
-          <div className="flex items-center gap-2 mb-2 print:mb-1">
-            <Rocket className="text-blue-600 print:w-3 print:h-3" size={20} />
-            <h2 className="text-xl print:text-sm font-bold text-gray-900">KEY PROJECTS</h2>
-          </div>
-          <div className="space-y-3 print:space-y-0">
-            <div>
-              <h3 className="font-bold text-gray-900 mb-1 print:mb-0 print:text-xs">Nextcloud CI/CD Deployment (Jenkins)</h3>
-              <ul className="text-sm print:text-xs text-gray-700 space-y-1 print:space-y-0 print:leading-tight">
-                <li>• Built pipeline to automate Nextcloud provisioning with PHP, MariaDB, SSL, and OAuth login</li>
-                <li>• Integrated private GitLab repo, SMTP, and post-deployment health checks</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-gray-900 mb-1 print:mb-0 print:text-xs">SIEM & Threat Detection System</h3>
-              <ul className="text-sm print:text-xs text-gray-700 space-y-1 print:space-y-0 print:leading-tight">
-                <li>• Deployed Wazuh stack in Docker for live monitoring</li>
-                <li>• Configured alerts for login failures, brute-force, and unusual process behavior</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-gray-900 mb-1 print:mb-0 print:text-xs">Sagasuite Static App Deployment Pipeline</h3>
-              <ul className="text-sm print:text-xs text-gray-700 space-y-1 print:space-y-0 print:leading-tight">
-                <li>• Developed build.sh + deploy.sh for multi-env static app builds</li>
-                <li>• Automated upload to Cloudflare Pages using rclone + Wrangler</li>
-              </ul>
-            </div>
-          </div>
-        </section>
+<section className="mb-4 print:mb-1">
+  <div className="flex items-center gap-2 mb-2 print:mb-1">
+    <Rocket className="text-blue-600 print:w-3 print:h-3" size={20} />
+    <h2 className="text-xl print:text-sm font-bold text-gray-900">KEY PROJECTS</h2>
+  </div>
+  <div className="space-y-3 print:space-y-0">
+
+    {/* Nextcloud CI/CD */}
+    <div>
+      <h3 className="font-bold text-gray-900 mb-1 print:mb-0 print:text-xs">Nextcloud CI/CD Deployment (Jenkins + GitLab)</h3>
+      <ul className="text-sm print:text-xs text-gray-700 space-y-1 print:space-y-0 print:leading-tight">
+        <li>• Built Jenkins pipeline to automate Nextcloud provisioning with PHP, MariaDB, SSL, and OIDC login</li>
+        <li>• Enabled multi-tenant instance support with per-org isolation and scoped config</li>
+        <li>• Integrated with GitLab repo, SMTP settings, and post-deployment health checks</li>
+      </ul>
+    </div>
+
+    {/* Wazuh SIEM */}
+    <div>
+      <h3 className="font-bold text-gray-900 mb-1 print:mb-0 print:text-xs">SIEM & Threat Detection System</h3>
+      <ul className="text-sm print:text-xs text-gray-700 space-y-1 print:space-y-0 print:leading-tight">
+        <li>• Deployed Wazuh stack in Docker for live monitoring and alerting</li>
+        <li>• Configured security alerts for login failures, brute-force, and anomalous behavior</li>
+      </ul>
+    </div>
+
+    {/* Sagasuite Pipeline */}
+    <div>
+      <h3 className="font-bold text-gray-900 mb-1 print:mb-0 print:text-xs">Sagasuite Static App Deployment Pipeline (Jenkins)</h3>
+      <ul className="text-sm print:text-xs text-gray-700 space-y-1 print:space-y-0 print:leading-tight">
+        <li>• Developed <code>build.sh</code> + <code>deploy.sh</code> for multi-environment builds and staging</li>
+        <li>• Automated pipeline via Jenkins to push to Cloudflare Pages using rclone and Wrangler</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 print:gap-1">
           {/* Education */}
-          <section>
-            <div className="flex items-center gap-2 mb-2 print:mb-1">
-              <GraduationCap className="text-blue-600 print:w-3 print:h-3" size={20} />
-              <h2 className="text-xl print:text-sm font-bold text-gray-900">EDUCATION</h2>
-            </div>
-            <div>
-              <h3 className="font-bold text-gray-900 print:text-xs">B.E. Computer Science Engineering</h3>
-              <p className="text-blue-600 font-medium text-sm print:text-xs">V.R.S College of Engineering & Technology, Tamil Nadu</p>
-              <p className="text-gray-600 text-sm print:text-xs">2021 – 2025 | CGPA: 8.25 / 10</p>
-            </div>
-          </section>
+<section>
+  <div className="flex items-center gap-2 mb-2 print:mb-1">
+    <GraduationCap className="text-blue-600 print:w-3 print:h-3" size={20} />
+    <h2 className="text-xl print:text-sm font-bold text-gray-900">EDUCATION</h2>
+  </div>
+  <div className="space-y-2 print:space-y-1">
+    <div>
+      <h3 className="font-bold text-gray-900 print:text-xs">
+        Bachelor of Engineering (B.E.), Computer Science & Engineering
+      </h3>
+      <p className="text-blue-600 font-medium text-sm print:text-xs">
+        V.R.S College of Engineering and Technology, Arasur, Tamil Nadu
+      </p>
+      <p className="text-gray-600 text-sm print:text-xs">
+        Expected Graduation: 2025 | Current CGPA (up to 6th semester): 8.25 / 10
+      </p>
+    </div>
+    <div>
+      <h3 className="font-bold text-gray-900 text-sm print:text-xs">Higher Secondary Education</h3>
+      <ul className="text-sm print:text-xs text-gray-700 space-y-1 print:space-y-0 print:leading-tight list-disc list-inside">
+        <li>Government Boys Higher Secondary School, Ulundurpet – 83.53%</li>
+        <li>Beschi Higher Secondary School, Ulundurpet (SSLC) – 81%</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 
           {/* Certifications */}
           <section>
