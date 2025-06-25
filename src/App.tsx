@@ -48,18 +48,33 @@ function App() {
               <Phone size={16} className="text-blue-600 print:w-2 print:h-2" />
               <span>+91 8220442790</span>
             </div>
-            <div className="flex items-center gap-1">
-              <Mail size={16} className="text-blue-600 print:w-2 print:h-2" />
-              <span>gokul3002001@gmail.com</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <Linkedin size={16} className="text-blue-600 print:w-2 print:h-2" />
-              <span>linkedin.com/in/gokul-cse</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <Github size={16} className="text-blue-600 print:w-2 print:h-2" />
-              <span>github.com/gokul5557</span>
-            </div>
+<div className="flex items-center gap-1">
+  <Mail size={16} className="text-blue-600 print:w-2 print:h-2" />
+  <a href="mailto:gokul3002001@gmail.com" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+    gokul3002001@gmail.com
+  </a>
+</div>
+
+<div className="flex items-center gap-1">
+  <Linkedin size={16} className="text-blue-600 print:w-2 print:h-2" />
+  <a href="https://linkedin.com/in/gokul-cse" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+    linkedin.com/in/gokul-cse
+  </a>
+</div>
+<div className="flex items-center gap-1">
+  <Github size={16} className="text-blue-600 print:w-2 print:h-2" />
+  <a href="https://github.com/gokul5557" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+    github.com/gokul5557
+  </a>
+</div>
+<div className="flex items-center gap-1">
+  <Shield size={16} className="text-blue-600 print:w-2 print:h-2" />
+  <a href="https://tryhackme.com/p/VortexCoder" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+    tryhackme.com/p/VortexCoder
+  </a>
+</div>
+
+
           </div>
         </header>
 
