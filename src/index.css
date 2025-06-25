@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+  
+  .print\:hidden {
+    display: none !important;
+  }
+  
+  .print\:p-2 {
+    padding: 0.5rem !important;
+  }
+  
+  .print\:mb-2 {
+    margin-bottom: 0.5rem !important;
+  }
+  
+  .print\:mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  
+  .print\:mb-0 {
+    margin-bottom: 0 !important;
+  }
+  
+  .print\:text-lg {
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+  }
+  
+  .print\:text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  
+  .print\:text-xs {
+    font-size: 0.75rem !important;
+    line-height: 1rem !important;
+  }
+  
+  .print\:gap-1 {
+    gap: 0.25rem !important;
+  }
+  
+  .print\:gap-0 {
+    gap: 0 !important;
+  }
+  
+  .print\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: 0 !important;
+  }
+  
+  .print\:pl-1 {
+    padding-left: 0.25rem !important;
+  }
+  
+  .print\:leading-tight {
+    line-height: 1.25 !important;
+  }
+  
+  .print\:w-3 {
+    width: 0.75rem !important;
+  }
+  
+  .print\:h-3 {
+    height: 0.75rem !important;
+  }
+  
+  .print\:w-2 {
+    width: 0.5rem !important;
+  }
+  
+  .print\:h-2 {
+    height: 0.5rem !important;
+  }
+  
+  .print\:border-l-1 {
+    border-left-width: 1px !important;
+  }
+  
+  @page {
+    size: A4;
+    margin: 0.2in;
+  }
+  
+  * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  
+  /* Ensure single page */
+  html, body {
+    height: auto !important;
+  }
+  
+  /* Force single page */
+  .min-h-screen {
+    min-height: auto !important;
+  }
+  
+  /* Remove any max-width constraints */
+  .max-w-4xl {
+    max-width: 100% !important;
+  }
+  
+  /* Ensure tight spacing */
+  section {
+    page-break-inside: avoid;
+  }
+}
