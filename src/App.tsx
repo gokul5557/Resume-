@@ -39,43 +39,56 @@ function App() {
           <h1 className="text-4xl print:text-lg font-bold text-gray-900 mb-1 print:mb-0"><strong>GOKUL V</strong></h1>
           <p className="text-xl print:text-sm font-semibold text-blue-600 mb-3 print:mb-1"><strong>DevOps & Cloud Security Engineer</strong></p>
 
-          <div className="flex flex-wrap justify-center gap-4 print:gap-1 text-sm print:text-xs text-gray-600">
-            <div className="flex items-center gap-1">
-              <MapPin size={16} className="text-blue-600 print:w-2 print:h-2" />
-              <span><strong>Ulundurpet, Tamil Nadu, India</strong></span>
-            </div>
-            <div className="flex items-center gap-1">
-              <Phone size={16} className="text-blue-600 print:w-2 print:h-2" />
-              <span><strong>+91 8220442790</strong></span>
-            </div>
-            <div className="flex items-center gap-1">
-              <Mail size={16} className="text-blue-600 print:w-2 print:h-2" />
-              <a href="mailto:gokul3002001@gmail.com" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-                <strong>gokul3002001@gmail.com</strong>
-              </a>
+          <div className="flex flex-col items-center gap-2 print:gap-1 text-sm print:text-xs text-gray-600">
+            {/* First Line - Contact Info */}
+            <div className="flex flex-wrap justify-center gap-4 print:gap-3">
+              <div className="flex items-center gap-1">
+                <MapPin size={16} className="text-blue-600 print:w-2 print:h-2" />
+                <span><strong>Ulundurpet, Tamil Nadu, India</strong></span>
+              </div>
+              <div className="flex items-center gap-1">
+                <Phone size={16} className="text-blue-600 print:w-2 print:h-2" />
+                <span><strong>+91 8220442790</strong></span>
+              </div>
+              <div className="flex items-center gap-1">
+                <Mail size={16} className="text-blue-600 print:w-2 print:h-2" />
+                <a href="mailto:gokul3002001@gmail.com" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                  <strong>gokul3002001@gmail.com</strong>
+                </a>
+              </div>
             </div>
 
-            <div className="flex items-center gap-1">
-              <Linkedin size={16} className="text-blue-600 print:w-2 print:h-2" />
-              <a href="https://linkedin.com/in/gokul-cse" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-                <strong>linkedin.com/in/gokul-cse</strong>
-              </a>
-            </div>
-            <div className="flex items-center gap-1">
-              <Github size={16} className="text-blue-600 print:w-2 print:h-2" />
-              <a href="https://github.com/gokul5557" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-                <strong>github.com/gokul5557</strong>
-              </a>
-            </div>
-            <div className="flex items-center gap-1">
-              <Shield size={16} className="text-blue-600 print:w-2 print:h-2" />
-              <a href="https://tryhackme.com/p/VortexCoder" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-                <strong>tryhackme.com/p/VortexCoder</strong>
-              </a>
+            {/* Second Line - Social Links */}
+            <div className="flex flex-wrap justify-center gap-4 print:gap-3">
+              <div className="flex items-center gap-1">
+                <Linkedin size={16} className="text-blue-600 print:w-2 print:h-2" />
+                <a href="https://linkedin.com/in/gokul-cse" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                  <strong>Linkedin</strong>
+                </a>
+              </div>
+              <div className="flex items-center gap-1">
+                <Github size={16} className="text-blue-600 print:w-2 print:h-2" />
+                <a href="https://github.com/gokul5557" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                  <strong>Github</strong>
+                </a>
+              </div>
+              <div className="flex items-center gap-1">
+                <Shield size={16} className="text-blue-600 print:w-2 print:h-2" />
+                <a href="https://tryhackme.com/p/VortexCoder" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                  <strong>TryHackMe</strong>
+                </a>
+              </div>
+              <div className="flex items-center gap-1">
+                <Shield size={16} className="text-blue-600 print:w-2 print:h-2" />
+                <a href="http://www.skillrack.com/profile/500040/61d13650a4d45e09f5377226407700257a2d6df8" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                  <strong>Skillrack</strong>
+                </a>
+              </div>
             </div>
           </div>
         </header>
 
+        {/* Rest of the content remains exactly the same */}
         {/* Objective */}
         <section className="mb-4 print:mb-1">
           <div className="flex items-center gap-2 mb-2 print:mb-1">
@@ -84,9 +97,9 @@ function App() {
           </div>
           <p className="text-gray-700 leading-relaxed text-sm print:text-xs print:leading-tight">
             <strong>Results-driven DevOps and Cloud Security Engineer</strong> with strong hands-on experience in <strong>CI/CD pipelines,
-            infrastructure automation, containerization, and cloud security</strong>. Proven ability to deploy <strong>secure, scalable
-            systems</strong> using <strong>Jenkins, Docker, Proxmox, and Wazuh</strong>. Passionate about <strong>automating operations, enhancing system
-            reliability, and building resilient, secure cloud-native platforms</strong>.
+              infrastructure automation, containerization, and cloud security</strong>. Proven ability to deploy <strong>secure, scalable
+                systems</strong> using <strong>Jenkins, Docker, Proxmox, and Wazuh</strong>. Passionate about <strong>automating operations, enhancing system
+                  reliability, and building resilient, secure cloud-native platforms</strong>.
           </p>
         </section>
 
